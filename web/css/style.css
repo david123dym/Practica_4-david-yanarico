@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(224, 228, 218);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+section{
+    color: honeydew;
+    width: 250px;
+    height: 350px;
+    border-radius: 5%;
+    display: block;
+    background-color: rgb(31, 31, 31);
+    padding: 20px;
+    
+    margin: 40%;
+    margin-top:20px;
+}
+section label{
+    margin: 3%;
+    padding: 0%;
+    font-weight: bold;
+    display: block;
+}
+section input{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 2%;
+    font-size: 20px;
+}
+
+section input[type = "submit"] {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(151, 11, 6);
+    align-content: center;
+    margin: 5%;
+}
+.boton :hover{
+    background-color: rgb(172, 133, 132);
+}
+
